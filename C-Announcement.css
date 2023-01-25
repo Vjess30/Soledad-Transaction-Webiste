@@ -1,0 +1,74 @@
+
+nav{
+	border-radius: 10PX;
+    background: -webkit-linear-gradient(left,#3282b8,#3282b8,  #0f4c75);
+    height: 50px;
+    width: 100;
+}
+nav ul{
+    float: right;
+    margin-right: 10px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{ /* color kang font and spacing  */
+    color: rgb(246, 244, 244);
+    font-size: 20px;
+    padding: 10px; 
+    text-decoration:none;
+}
+nav ul li a:hover{ /* color kang font and spacing  */
+    background-color: #bbe1fa;
+    border-color: #3282b8;
+    border-radius: 6px;
+    color: rgb(14, 13, 13);
+    font-size: 20px;
+    padding: 10px; 
+    text-decoration:none;
+}
+.furms{
+    padding-top: 4%;
+    min-height: 60vh;
+    padding-left: 16%;
+}
+.container{
+    width: 70%;
+    border-radius: 6PX;
+    background-color: #bbe1fa; /*sa form*/
+   border:4px #0f4c75 solid;
+   padding-Top: 2%;
+   padding-left: 6%;
+    padding-right: 8%;
+}
+.input-box input{
+	height: 30px;
+	width: 100%;
+	font-size: 14px;
+	border-radius: 5px;
+	padding-left: 15px;
+	border: 1px solid #ccc;
+	border-bottom-width: 2px;
+	justify-content: space-between;
+}
+.input-box span{
+	font-size: 23px;
+}
+   form .button{
+    padding-left: 35%;
+	 height: 45px;
+	 margin: 30px 0
+   }
+   form .button input{
+	 height: 100%;
+	 width: 50%;
+	 border-radius: 5px;
+	 border: none;
+	 color: #fff;
+	 font-size: 18px;
+	 font-weight: 500;
+	 letter-spacing: 1px;
+	 cursor: pointer;
+	 transition: all 0.3s ease;
+	 background: linear-gradient(135deg, #557a95, #557a95);
+   }

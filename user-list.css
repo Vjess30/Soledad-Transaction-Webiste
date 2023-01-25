@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+nav{
+	border-radius: 10PX;
+    background: -webkit-linear-gradient(left,#3282b8,#3282b8,  #0f4c75);
+    height: 50px;
+    width: 100;
+}
+nav ul{
+    float: right;
+    margin-right: 10px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{ /* color kang font and spacing  */
+    border-radius: 6px;
+    color: rgb(250, 248, 248);
+    font-size: 20px;
+    padding: 10px; 
+    text-decoration:none;
+}
+nav ul li a:hover{ /* color kang font and spacing  */
+    background-color: #bbe1fa;
+    border-color: #3282b8;
+    border-radius: 6px;
+    color: rgb(14, 13, 13);
+    font-size: 20px;
+    padding: 10px; 
+    text-decoration:none;
+}
+.add-table{
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+table{
+    padding: 7px;
+    border-radius: 9px;
+    border: 3px solid black;
+    height: 50%;
+    width: 100%;
+    color: rgb(7, 7, 7);
+    font-family: monospace;
+    font-size: 17px;
+}
+th{
+    padding: 5px;
+    background-color: #0f4c75;
+    color: white;
+}
+tr:nth-child(even){background-color: #7cbfec ;}
